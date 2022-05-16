@@ -1,0 +1,7 @@
+package mavenex.mavenbuild;
+
+import junit.framework.TestCase;
+
+public class AgeValidatorTest extends TestCase {
+
+}
