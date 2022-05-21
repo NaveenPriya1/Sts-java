@@ -80,6 +80,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\saira\Downloads\jdbc1"/>
 			<item value="C:\Users\saira\Downloads\Sporty Shoes Project"/>
 		</list>
 		<list key="projectNameTemplate">
