@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<beans xmlns = "http://www.springframework.org/schema/beans"
+   xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+   
+   
+ <bean id="naveenadd" class="com.spring.Address">
+ <constructor-arg value="Kaviti" ></constructor-arg>
+ <constructor-arg value="Andhra Pradesh"  ></constructor-arg>
+ <constructor-arg value="532322" type="int"></constructor-arg>
+ </bean>  
+ 
+ <bean id="saiadd" class="com.spring.Address">
+ <constructor-arg value="Kaviti" ></constructor-arg>
+ <constructor-arg value="Andhra Pradesh"  ></constructor-arg>
+ <constructor-arg value="532322" type="int"></constructor-arg>
+ </bean> 
+ 
+ <bean id="saddamadd" class="com.spring.Address">
+ <constructor-arg value="Karnool" ></constructor-arg>
+ <constructor-arg value="Andhra Pradesh"  ></constructor-arg>
+ <constructor-arg value="521185" type="int"></constructor-arg>
+ </bean> 
+ 
+  <bean id="naveen" class="com.spring.Employee">
+ <constructor-arg value="2503636" type="int" ></constructor-arg>
+ <constructor-arg value="Naveen"  ></constructor-arg>
+ <constructor-arg>
+ <ref bean="naveenadd"/>
+ </constructor-arg>
+ </bean> 
+ 
+  <bean id="sai" class="com.spring.Employee">
+ <constructor-arg value="352785" type="int" ></constructor-arg>
+ <constructor-arg value="Sai"  ></constructor-arg>
+ <constructor-arg>
+ <ref bean="saiadd"/>
+ </constructor-arg>
+ </bean> 
+ 
+  <bean id="saddam" class="com.spring.Employee">
+ <constructor-arg value="568794" type="int" ></constructor-arg>
+ <constructor-arg value="Saddam"  ></constructor-arg>
+ <constructor-arg>
+ <ref bean="saddamadd"/>
+ </constructor-arg>
+ </bean> 
+   
+   </beans>

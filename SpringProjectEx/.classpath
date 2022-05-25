@@ -23,5 +23,11 @@
 			<attribute name="maven.optionaldependency" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/saira/Downloads/saddam jarfiles/spring-aop-5.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/saira/Downloads/saddam jarfiles/spring-beans-5.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/saira/Downloads/saddam jarfiles/spring-context-5.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/saira/Downloads/saddam jarfiles/spring-core-5.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/saira/Downloads/saddam jarfiles/spring-expression-5.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/saira/Downloads/saddam jarfiles/spring-jcl-5.0.0.RELEASE.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
