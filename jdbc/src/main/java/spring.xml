@@ -6,8 +6,8 @@
    
    
    <bean id="student" class="springjdbc.jdbc.StudentBean">
-   <property name="sid" value="1"></property>
-   <property name="sname" value="Naveen"></property>
+   <property name="sid" value="2"></property>
+   <property name="sname" value="Naveen Priya"></property>
    </bean>
    
    
@@ -22,7 +22,7 @@
    
    <!-- we need to do the setter injection for the driverClassName,url,username,password -->
    <bean id="ds" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
-   <property name="driverClassName" value="com.mysql.jdbc.Driver"></property>   
+   <property name="driverClassName" value="com.mysql.cj.jdbc.Driver"></property>   
    <property name="url" value="jdbc:mysql://localhost:3306/jdbc"></property>
    <property name="username" value="root"></property>
    <property name="password" value="abcd"></property>

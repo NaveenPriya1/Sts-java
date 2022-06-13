@@ -1,11 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
 	</section>
 	<section name="org.eclipse.m2e.core.pom.dependencies">
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\naveen folder\sts workspace\Constructor Dependency injection"/>
+			<item value="D:\naveen folder\sts workspace"/>
+			<item value="D:\naveen folder\sts workspace\jdbc\src\main\java\spring.xml"/>
+			<item value="D:\naveen folder\sts workspace\springEx"/>
 			<item value="D:\naveen folder\sts workspace\springregisterms\src\main\resources\application.properties"/>
 			<item value="D:\naveen folder\sts workspace\Servers"/>
 			<item value="D:\naveen folder\sts workspace\SpringAcc"/>
@@ -33,19 +45,13 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="junit.primejunit"/>
-			<item value="agevalid.junittest"/>
-			<item value="springmvcanno.springmvcanno"/>
+			<item value="com.spring.jdbc.springjdbc"/>
 		</list>
 		<list key="groupId">
-			<item value="junit"/>
-			<item value="agevalid"/>
-			<item value="springmvcanno"/>
+			<item value="com.spring.jdbc"/>
 		</list>
 		<list key="artifactId">
-			<item value="primejunit"/>
-			<item value="junittest"/>
-			<item value="springmvcanno"/>
+			<item value="springjdbc"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -90,6 +96,19 @@
 			<item value="[groupId].[artifactId]"/>
 			<item value="[groupId].[artifactId]-[version]"/>
 			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="wizardPage">
+		<list key="groupId">
+			<item value="Book_Store"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="Book_Store"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
 		</list>
 	</section>
 </section>

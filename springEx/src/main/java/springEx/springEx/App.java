@@ -23,6 +23,10 @@ public class App
        sim.typeOfSim();
        sim.dataTypeOfSim();
        
+       Sim sim1 = bf.getBean(Idea.class);
+       sim1.typeOfSim();
+       sim1.dataTypeOfSim();
+       
     }
 
 	

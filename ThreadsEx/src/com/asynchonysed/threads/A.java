@@ -13,7 +13,7 @@ public class A {
 		
        try {
        
-		assert age > 18;
+		assert (age >=18);
 		System.out.println("welcome to marriage portal");
        }catch(AssertionError e) {
     	   System.out.println(e);
