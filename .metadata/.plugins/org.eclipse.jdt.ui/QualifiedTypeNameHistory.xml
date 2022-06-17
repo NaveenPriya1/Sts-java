@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
-    <fullyQualifiedTypeName name="javax.persistence.GenerationType"/>
-    <fullyQualifiedTypeName name="com.inventory.entity.Purchases"/>
     <fullyQualifiedTypeName name="com.inventory.services.StudentServiece"/>
     <fullyQualifiedTypeName name="com.inventory.entity.Student"/>
     <fullyQualifiedTypeName name="com.inventory.repository.StudentRepo"/>
@@ -51,7 +48,6 @@
     <fullyQualifiedTypeName name="com.inventory.repository.purchaseRepo"/>
     <fullyQualifiedTypeName name="com.inventory.repository.SaleRepo"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PostMapping"/>
-    <fullyQualifiedTypeName name="org.springframework.http.ResponseEntity"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PathVariable"/>
     <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
     <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
@@ -60,4 +56,8 @@
     <fullyQualifiedTypeName name="com.spring.jdbc.springjdbc.StudentCurd"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="org.springframework.jdbc.core.JdbcTemplate"/>
+    <fullyQualifiedTypeName name="org.springframework.http.HttpStatus"/>
+    <fullyQualifiedTypeName name="org.springframework.http.ResponseEntity"/>
+    <fullyQualifiedTypeName name="java.lang.Runnable"/>
+    <fullyQualifiedTypeName name="com.list.MyClass"/>
 </qualifiedTypeNameHistroy>
